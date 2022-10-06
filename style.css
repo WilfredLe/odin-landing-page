@@ -1,13 +1,39 @@
-body {}
+@font-face {
+    font-family: "Roboto-light";
+    src: url("Roboto-light.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto-light", "Times New Roman", "Sans Serif";
+}
 
 /* Header Section */
-.header {}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
 
-.header-logo {}
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
 
-.header-links {}
+.header-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
 
-a {}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 /* Intro-tab Section */
 .intro-tab {}
