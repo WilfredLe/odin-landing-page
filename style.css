@@ -9,12 +9,6 @@ body {
     font-family: "Roboto-light", "Times New Roman", "Sans Serif";
 }
 
-img {
-    flex: 0 1 auto;
-    width: 600px;
-    height: auto;
-}
-
 /* Header Section */
 .header {
     display: flex;
@@ -80,16 +74,54 @@ a {
     font-size: 18px;
 }
 
+.intro-img {
+    flex: 0 1 auto;
+    width: 600px;
+    height: auto;
+}
+
 /* Info-tab Section */
-.info-tab {}
+.info-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px;
+}
 
-.info-h1 {}
+.info-h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    color: #1f2937;
+}
 
-.sub-tab-container {}
+.sub-tab-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
-.info-sub-tab {}
+.info-sub-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-.sub-tab-text {}
+.info-img {
+    width: 200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: 3px royalblue solid;
+    border-radius: 8px;
+}
+
+.sub-tab-text {
+    width: 200px;
+    text-align: center;
+}
 
 /* Quote-tab Section */
 .quote-tab {}
