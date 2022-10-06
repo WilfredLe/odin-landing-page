@@ -1,0 +1,53 @@
+body {}
+
+/* Header Section */
+.header {}
+
+.header-logo {}
+
+.header-links {}
+
+a {}
+
+/* Intro-tab Section */
+.intro-tab {}
+
+.intro-text-container {}
+
+.intro-h1 {}
+
+.intro-text {}
+
+.intro-tab-btn {}
+
+/* Info-tab Section */
+.info-tab {}
+
+.info-h1 {}
+
+.sub-tab-container {}
+
+.info-sub-tab {}
+
+.sub-tab-text {}
+
+/* Quote-tab Section */
+.quote-tab {}
+
+.quote {}
+
+.source {}
+
+/* Ad-tab Section */
+.ad-tab {}
+
+.ad-tab-container {}
+
+.ad-h3 {}
+
+.ad-text {}
+
+.ad-btn {}
+
+/* Footer Section */
+.footer {}
