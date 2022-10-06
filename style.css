@@ -124,11 +124,29 @@ a {
 }
 
 /* Quote-tab Section */
-.quote-tab {}
+.quote-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    padding: 100px;
+    background-color: #e5e7eb;
+}
 
-.quote {}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 900px;
+}
 
-.source {}
+.source {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #1f2937;
+    width: 900px;
+}
 
 /* Ad-tab Section */
 .ad-tab {}
