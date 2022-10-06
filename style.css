@@ -9,6 +9,12 @@ body {
     font-family: "Roboto-light", "Times New Roman", "Sans Serif";
 }
 
+img {
+    flex: 0 1 auto;
+    width: 600px;
+    height: auto;
+}
+
 /* Header Section */
 .header {
     display: flex;
@@ -36,15 +42,43 @@ a {
 }
 
 /* Intro-tab Section */
-.intro-tab {}
+.intro-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    gap: 50px;
+}
 
-.intro-text-container {}
+.intro-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    gap: 16px;
+}
 
-.intro-h1 {}
+.intro-h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: #f9faf8;
+}
 
-.intro-text {}
+.intro-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
 
-.intro-tab-btn {}
+.intro-tab-btn {
+    text-align: center;
+    color: #f9faf8;
+    background-color: royalblue;
+    border: 1px royalblue;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
 
 /* Info-tab Section */
 .info-tab {}
