@@ -52,9 +52,7 @@ a {
     gap: 16px;
 }
 
-.intro-h1 {
-    margin: 0;
-    padding: 0;
+.intro-header {
     font-size: 48px;
     color: #f9faf8;
 }
@@ -90,9 +88,7 @@ a {
     margin: 30px;
 }
 
-.info-h1 {
-    padding: 0;
-    margin: 0;
+.info-header {
     font-size: 36px;
     color: #1f2937;
 }
@@ -167,9 +163,7 @@ a {
     align-items: flex-start;
 }
 
-.ad-h3 {
-    margin: 0;
-    padding: 0;
+.ad-header {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
