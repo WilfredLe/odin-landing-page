@@ -1,24 +1,35 @@
 @font-face {
-    font-family: "Roboto-light";
-    src: url("Roboto-light.ttf");
+    font-family: "Roboto-Regular";
+    src: url("Roboto-Regular.ttf");
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: "Roboto-light", "Times New Roman", "Sans Serif";
+    font-family: "Roboto-Regular", "Times New Roman", "Sans Serif";
 }
 
 /* Header Section */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    padding-top: 15px;
+    padding-bottom: 65px;
+    gap: 825px;
+}
+
+.header-container {
+    display: flex;
+    width: 1250px;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo {
-    font-weight: bold;
+    font-weight: 1000;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -26,7 +37,7 @@ body {
 .header-links {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 a {
